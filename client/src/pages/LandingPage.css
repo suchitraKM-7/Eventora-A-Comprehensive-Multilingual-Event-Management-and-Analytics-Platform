@@ -1,0 +1,187 @@
+.landing-page {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  overflow: hidden;
+
+  background: url("/images/wedding-bg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Dark Overlay */
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.45);
+  z-index: 1;
+}
+
+/* Navbar */
+.navbar {
+  position: relative;
+  z-index: 10;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 25px 50px;
+}
+
+.nav-buttons {
+  display: flex;
+  gap: 15px;
+}
+
+.login-btn,
+.register-btn {
+  background: white;
+  color: #0f172a;
+
+  border: none;
+  border-radius: 12px;
+
+  padding: 14px 32px;
+
+  font-size: 18px;
+  font-weight: 700;
+
+  cursor: pointer;
+
+  transition: 0.3s ease;
+}
+
+.login-btn:hover,
+.register-btn:hover {
+  transform: translateY(-2px);
+}
+
+/* Hero Content */
+.landing-hero-content {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  width: 100%;
+  max-width: 1200px;
+
+  text-align: center;
+  z-index: 2;
+}
+.landing-hero-content h1 {
+  font-size: 80px;
+  font-weight: 900;
+  color: #ffffff;
+
+  text-shadow:
+    0 0 10px rgba(255,255,255,0.8),
+    0 0 20px rgba(91,76,240,0.8),
+    0 0 40px rgba(91,76,240,0.6);
+
+  letter-spacing: 3px;
+}
+
+.landing-hero-content h2 {
+  font-size: 28px;
+  font-weight: 600;
+
+  color: #facc15;   /* Gold */
+
+  text-shadow:
+    0 0 10px rgba(250,204,21,0.6);
+
+  margin-top: 10px;
+}
+
+.landing-hero-content p {
+  max-width: 1200px;
+  margin: 0 auto;
+
+  font-size: 24px;
+  line-height: 1.5;
+  color: white;
+
+  white-space: nowrap;
+}
+/* Bottom Features */
+.features {
+  position: absolute;
+
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  z-index: 10;
+
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+
+  background: rgba(10, 10, 35, 0.45);
+  backdrop-filter: blur(10px);
+
+  padding: 22px 30px;
+}
+
+.feature {
+  text-align: center;
+  color: white;
+}
+
+.feature h3 {
+  font-size: 20px;
+  font-weight: 700;
+
+  margin-bottom: 10px;
+}
+
+.feature p {
+  font-size: 16px;
+  line-height: 1.5;
+
+  color: rgba(255,255,255,0.95);
+}
+
+/* Responsive */
+@media (max-width: 992px) {
+  .landing-hero-content h1 {
+    font-size: 70px;
+  }
+
+  .landing-hero-content h2 {
+    font-size: 26px;
+  }
+
+  .landing-hero-content p {
+    font-size: 20px;
+  }
+
+  .features {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .landing-hero-content h1 {
+    font-size: 50px;
+  }
+
+  .landing-hero-content h2 {
+    font-size: 22px;
+  }
+
+  .landing-hero-content p {
+    font-size: 18px;
+    padding: 0 20px;
+  }
+
+  .features {
+    grid-template-columns: 1fr;
+  }
+
+  .navbar {
+    padding: 20px;
+  }
+}
