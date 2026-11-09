@@ -151,6 +151,11 @@ The platform provides analytics to monitor:
 - Revenue generated
 - Event-wise revenue
 - Organizer-wise revenue
+## 📸 Project Screenshots
+
+### Eventora Landing Page
+
+![Eventora Landing Page](screenshots/landing-page.png)
 
 ## 🔮 Future Enhancements
 
