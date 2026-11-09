@@ -156,6 +156,13 @@ The platform provides analytics to monitor:
 ### Eventora Landing Page
 
 ![Eventora Landing Page](screenshots/landing-page.png)
+### Participant Dashboard
+
+#### Dashboard Overview
+![Participant Dashboard](screenshots/participant-dashboard-top.png)
+
+#### Available Events
+![Available Events](screenshots/participant-dashboard-events.png)
 
 ## 🔮 Future Enhancements
 
