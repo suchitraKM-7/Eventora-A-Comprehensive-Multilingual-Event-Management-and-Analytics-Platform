@@ -163,6 +163,49 @@ The platform provides analytics to monitor:
 
 #### Available Events
 ![Available Events](screenshots/participant-dashboard-events.png)
+## Participant Dashboard
+
+### Dashboard Overview
+![Participant Dashboard](screenshots/participant-dashboard-top.png)
+
+### Available Events
+![Available Events](screenshots/participant-dashboard-events.png)
+
+## Organizer Dashboard
+
+### Dashboard Overview
+![Organizer Dashboard](screenshots/organizer-dashboard-overview.png)
+
+### Quick Actions and Statistics
+![Organizer Dashboard Statistics](screenshots/organizer-dashboard-stats.png)
+
+### Recent Events and Analytics
+![Organizer Dashboard Analytics](screenshots/organizer-dashboard-analytics.png)
+
+## Admin Dashboard
+
+### Dashboard Overview
+![Admin Dashboard](screenshots/admin-dashboard-overview.png)
+
+### Date-wise Analytics
+![Date-wise Analytics](screenshots/admin-datewise-analytics.png)
+
+### Event-wise Analytics
+![Event-wise Analytics](screenshots/admin-eventwise-analytics.png)
+
+### Organizer-wise Analytics
+![Organizer-wise Analytics](screenshots/admin-organizer-analytics.png)
+
+## Other Features
+
+### Create Event
+![Create Event](screenshots/create-event.png)
+
+### My Bookings
+![My Bookings](screenshots/my-bookings.png)
+
+### QR Ticket
+![QR Ticket](screenshots/qr-ticket.png)
 
 ## 🔮 Future Enhancements
 
